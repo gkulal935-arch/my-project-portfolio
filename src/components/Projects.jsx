@@ -94,7 +94,7 @@ const projects = [
       "Designed precision re-exam update pipelines matching massive student indices via USN mapping."
     ],
     tech: ["Python", "Streamlit", "Pandas", "Openpyxl"],
-    link: "http://apps.bbhegdecollege.com:5001"
+    github: "https://github.com/gkulal935-arch/sem_result_analyzer.git"
   },
   {
     title: "Online Exam Sys",
@@ -107,7 +107,7 @@ const projects = [
       "Developed the administrative console for aggregated result telemetry and secure data exporting."
     ],
     tech: ["Python", "Flask", "Firebase", "HTML/JS"],
-    link: "#"
+    github: "https://github.com/gkulal935-arch/SSC_SEM_EXAM.git"
   },
   {
     title: "Tech Manthan 5.0",
