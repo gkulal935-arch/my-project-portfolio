@@ -34,10 +34,10 @@ const Navbar = () => {
       <div className="flex gap-4 md:gap-8 items-center">
         {/* Desktop Links */}
         <div className="hidden md:flex gap-8 items-center">
-          {['About', 'Projects', 'Skills', 'Contact'].map((item) => (
+          {['About', 'Projects', 'Skills', 'Awards', 'Contact'].map((item) => (
             <button 
               key={item} 
-              onClick={() => handleNavClick(item.toLowerCase())}
+              onClick={() => handleNavClick(item === 'Awards' ? 'achievements' : item.toLowerCase())}
               className="text-sm font-medium text-white/70 hover:text-white hover:neon-text transition-colors relative group"
             >
               {item}
@@ -71,10 +71,10 @@ const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
             className="absolute top-full left-0 w-full bg-black/95 backdrop-blur-3xl border-b border-white/10 md:hidden overflow-hidden flex flex-col shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
           >
-            {['About', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['About', 'Projects', 'Skills', 'Awards', 'Contact'].map((item) => (
               <button 
                 key={item} 
-                onClick={() => handleNavClick(item.toLowerCase())}
+                onClick={() => handleNavClick(item === 'Awards' ? 'achievements' : item.toLowerCase())}
                 className="w-full p-5 text-center text-sm font-bold uppercase tracking-widest text-white/70 hover:text-neonPink hover:bg-white/5 transition-all border-b border-white/5 last:border-b-0"
               >
                 {item}

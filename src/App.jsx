@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Achievements from './components/Achievements';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import BackgroundSpace from './components/3d/BackgroundSpace';
@@ -47,6 +48,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
+        <Achievements />
         <Resume />
         <Contact />
         <footer className="w-full py-10 text-center text-white/50 text-sm">
